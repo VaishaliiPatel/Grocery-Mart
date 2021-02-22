@@ -1,0 +1,176 @@
+name: GroceryMart
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^0.4.4
+  # firebase_analytics: ^0.3.0
+  country_code_picker: ^1.7.0
+  provider: ^4.3.3
+  otp_text_field: ^1.0.2
+  carousel_slider: 2.1.0
+  #firebse
+  cloud_firestore: ^0.13.5
+  firebase_auth: ^0.16.1
+  cupertino_icons: ^0.1.2
+
+  #mobX
+  # mobx: ^0.3.1+4 //older version
+  mobx: ^1.2.1+4
+  flutter_mobx: ^1.1.0+2
+  http: ^0.12.2
+
+
+  #google sign in
+  google_sign_in: ^4.5.9
+
+  #facebook sign in
+  flutter_facebook_login: ^3.0.0
+
+  # for svg image support
+  flutter_svg:  ^0.18.0
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.11.1
+  # mobx_codegen: ^0.3.10+1
+  mobx_codegen: ^1.1.2
+  
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/logo.png
+    - assets/images/logoOne.png
+    - assets/images/background.png
+    - assets/images/carrotIcon.png
+    - assets/images/shoppingBag.png
+    - assets/images/googleIcon.png
+    - assets/images/facebookIcon.png
+    - assets/images/locationLogo.png
+    - assets/images/carrotColorIcon.png
+    - assets/images/SearchIcon.png
+    - assets/images/LocationIcon.png
+    - assets/images/ShopIcon.png
+    - assets/images/SearchTabIcon.png
+    - assets/images/CartIcon.png
+    - assets/images/Favourite.png
+    - assets/images/UserTab.png
+    - assets/images/banner1.png
+    - assets/images/UserColorIcon.png
+    - assets/images/ShopColor.png
+    - assets/images/FavouriteColor.png
+    - assets/images/CartColor.png
+    - assets/images/SearchTabColor.png
+    - assets/images/Banana.png
+    - assets/images/apple.png
+    - assets/images/beef.png
+    - assets/images/chicken.png
+    - assets/images/pulses.png
+    - assets/images/rice.png
+    - assets/images/ginger.png
+    - assets/images/papper.png
+    - assets/images/rating.png
+    - assets/images/Fresh.png
+    - assets/images/110gmLogo.png
+    - assets/images/oil.png
+    - assets/images/meat.png
+    - assets/images/bakery.png
+    - assets/images/EggsAndMilk.png
+    - assets/images/beverages.png
+    - assets/images/coke.png
+    - assets/images/sprite.png
+    - assets/images/appleJuice.png
+    - assets/images/OrangeJuice.png
+    - assets/images/Cocacola.png
+    - assets/images/pepsi.png
+    - assets/images/RedEgg.png
+    - assets/images/Egg.png
+    - assets/images/EggPasta.png
+    - assets/images/EggNoodles.png
+    - assets/images/Mayo.png
+    - assets/images/Noodles.png
+    - assets/images/export.png
+    - assets/images/minus.png
+    - assets/images/plus.png
+    - assets/images/rightIcon.png
+    - assets/images/filter.png
+    - assets/images/cross.png
+    - assets/images/12_69.png
+    - assets/images/card.png
+    - assets/images/placeOrder.png
+    - assets/images/bucket.png
+    - assets/images/exportIcon.png
+    - assets/images/profile.png
+    - assets/images/edit.png
+    - assets/images/about.png
+    - assets/images/helpicon.png
+    - assets/images/Bellicon.png
+    - assets/images/promoCard.png
+    - assets/images/userDetail.png
+    - assets/images/bag.png
+    - assets/images/location.png
+    - assets/images/paymentCard.png
+    - assets/images/check.png
+    - assets/images/eyeIcon.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/PTSansCaption-Bold.ttf
+        - asset: assets/fonts/PTSansCaption-Regular.ttf
+    # - family: Trajan Pro
+    #   fonts:
+    #     - asset: fonts/TrajanPro.ttf
+    #     - asset: fonts/TrajanPro_Bold.ttf
+    #       weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,18 @@
+{
+  "slug": "france",
+  "name": {
+    "common": "France",
+    "official": "French Republic"
+  },
+  "code": {
+    "alpha2": "FR",
+    "alpha3": "FRA",
+    "numeric": "250"
+  },
+  "flag": {
+    "png": "https://assets.thebasetrip.com/api/v2/countries/flags/france.png",
+    "svg": "https://assets.thebasetrip.com/api/v2/countries/flags/france.svg",
+    "emoji": "🇫🇷"
+  }
+ 
+}
